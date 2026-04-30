@@ -1,0 +1,10 @@
+<library path="my_pure_pursuit">
+  <class name="my_pure_pursuit/PurePursuitController"
+         type="my_pure_pursuit::PurePursuitController"
+         base_class_type="nav2_core::Controller">
+    <description>
+      Simple Pure Pursuit Controller — finds a look-ahead point on the
+      global path and steers the robot toward it with a fixed linear speed.
+    </description>
+  </class>
+</library>
