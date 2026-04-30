@@ -1,0 +1,7 @@
+# Request
+bool increase        # true = tăng threshold, false = giảm threshold
+---
+# Response
+bool success
+float64 new_threshold
+string message
